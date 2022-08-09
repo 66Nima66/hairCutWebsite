@@ -1,0 +1,192 @@
+
+.box {
+
+border : 1px solid rgb(0, 0, 0); /*light gray*/
+
+	 }
+
+	 body {
+
+	background-color: rgb(0, 0, 0); /*black */
+	
+	
+}
+.boxI {
+
+	
+	border: 1px solid white;
+	width: 450px;
+	height: 450px;
+	display: inline-block;
+	margin-left: 25px;
+	
+}
+
+main{
+
+min-height: 100vh;
+	
+}
+.topWelcome{
+	
+	display: flex;
+
+	justify-content: center;
+	color: rgb(255, 255, 255); /* white */
+
+}
+ul {
+
+list-style-type: none;
+background-color: black;
+margin: 0;
+padding: 0;
+overflow: hidden;
+position: -webkit-sticky; /* Safari sticky code*/
+position: sticky;
+top: 0;
+display: flex;
+justify-content: center;
+
+	
+
+	}
+
+
+
+
+
+li a {
+
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 6px 16px;
+  text-decoration: none;
+	 
+	 }
+
+
+li a:hover:not(.active) {
+  background-color: rgb(6, 16, 156);
+			
+
+			}
+
+.active{
+
+	background-color: blue;
+	border-left: 1px solid white;
+}
+
+
+
+article{
+	color: rgb(255, 255, 255);
+	position: relative;
+	overflow: auto;
+	color: #f5f5f5b3;
+	
+
+}
+
+
+.firstdiv {
+
+
+	background-color: red;
+/* display: inline-block;
+width: 800px;
+height: 550px;
+position: absolute;
+top: 60px; */
+
+}
+
+
+.seconddive{
+
+display: inline-block;
+float: right;
+
+}
+
+
+
+
+article p  {
+
+	color: aliceblue;
+	display: inline-block;
+	margin-left: 5px;
+	margin-top: 10px;
+	
+	
+}
+
+/* article h2 {
+
+	color: aliceblue;
+	margin-left: 5px;
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+} */
+
+aside {
+
+background-color: rgb(0, 0, 0);
+color: aliceblue;
+position: relative;
+overflow: auto;
+
+}
+
+aside table:first-child {
+
+	background-color: rgb(7, 7, 7);
+
+	border-radius: 15px;
+	position: relative;
+	left: 30px;
+	top: 10px;
+	margin-bottom: 15px;
+	box-shadow:  0 0 30px #f5f5f5b3;
+
+
+
+}
+
+
+.secondpic{
+display: inline-block;
+position: relative;
+float: right;
+bottom: 250px;
+
+
+}
+@media screen and (max-width:1039px){
+
+	
+.seconddive{
+
+display: flex;
+overflow: auto;
+
+}
+}/*  end 690px */
+
+
+
+footer blockquote {
+
+	color: aliceblue;
+	border: solid 1px  aliceblue;
+	justify-content: center;
+	text-align: center; 
+	/* it is common to have text-align: center; in ffoter and header */
+
+
+
+}

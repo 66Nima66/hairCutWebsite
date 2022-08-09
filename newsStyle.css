@@ -1,0 +1,83 @@
+.box {
+
+border : 1px solid rgb(29, 36, 29); /*light gray*/
+
+	 }
+
+body {
+
+	background-color: rgb(10, 10, 10); /*black */
+	
+}
+.topWelcome{
+	
+	display: flex;
+
+	justify-content: center;
+	color: rgb(255, 255, 255); /* white */
+
+}
+ nav ul {
+
+list-style-type: none;
+background-color: black;
+margin: 0;
+padding: 0;
+overflow: hidden;
+position: -webkit-sticky; /* Safari sticky code*/
+position: sticky;
+top: 0;
+display: flex;
+justify-content: center;
+
+	
+
+	}
+
+
+
+nav li {
+
+
+border-right: 1px solid white ;
+	}
+
+nav li a {
+
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 6px 16px;
+  text-decoration: none;
+	 
+	 }
+
+
+nav li a:hover:not(.active) {
+  background-color: rgb(6, 16, 156);
+			
+
+			}
+
+ .active{
+
+	background-color: blue;
+	border-left: 1px solid white;
+}
+
+footer blockquote {
+
+	color: aliceblue;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+
+}
+
+article{
+	color: white;
+	position: relative;
+	overflow: auto;
+
+}
+

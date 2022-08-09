@@ -1,0 +1,168 @@
+.box {
+
+border : 1px solid rgb(29, 36, 29); /*light gray*/
+
+
+	 }
+body {
+
+	background-color: rgb(10, 10, 10); /*black */
+	
+}
+.topWelcome{
+	
+	display: flex;
+
+	justify-content: center;
+	color: rgb(255, 255, 255); /* white */
+
+}
+ul {
+
+list-style-type: none;
+background-color: black;
+margin: 0;
+padding: 0;
+overflow: hidden;
+position: -webkit-sticky; /* Safari sticky code*/
+position: sticky;
+top: 0;
+display: flex;
+justify-content: center;
+
+	
+
+	}
+
+
+
+li {
+
+
+border-right: 1px solid white ;
+	}
+
+li a {
+
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 6px 16px;
+  text-decoration: none;
+	 
+	 }
+
+
+li a:hover:not(.active) {
+  background-color: rgb(6, 16, 156);
+			
+
+			}
+
+.active{
+
+	background-color: blue;
+	border-left: 1px solid white;
+}
+
+
+
+article{
+	color: white;
+	position: relative;
+	overflow: auto;
+
+}
+
+article h1 {
+
+	text-align: center;
+}
+
+.intro{
+	width: 700px;
+	height: 190px ;
+	position: relative;
+	left: 10px;
+
+
+}
+.firstdiv {
+
+display: inline-block;
+width: 800px;
+height: 550px;
+position: absolute;
+top: 60px;
+
+}
+
+
+.seconddive{
+
+display: inline-block;
+float: right;
+
+}
+
+
+
+.fifthdiv{
+display: none;
+
+}	
+
+article p  {
+
+	color: aliceblue;
+	display: inline-block;
+	margin-left: 5px;
+	margin-top: 10px;
+	
+	
+}
+
+article h2 {
+
+	color: aliceblue;
+	margin-left: 5px;
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+}
+
+section#employ h2{
+    text-align: center;
+}
+section#employ article{
+    display: inline-block;
+    width: 33%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+section#employ article img{
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+.secondpic{
+display: inline-block;
+position: relative;
+float: right;
+bottom: 250px;
+
+
+}
+
+
+
+
+footer blockquote {
+
+	color: aliceblue;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+
+}

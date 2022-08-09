@@ -1,0 +1,172 @@
+body{
+	background-color: rgb(10, 10, 10); /*black */
+	text-align: center;
+}
+main{
+
+	margin: 0 auto;
+	background-color: rgb(10, 10, 10); /*black */
+}
+main h1 {
+	display: flex;
+	justify-content: center;
+	margin-left: 200px ;
+	color: rgb(255, 255, 255); /* white */
+
+}
+.box {
+
+border : 1px solid rgb(29, 36, 29); /*light gray*/
+
+	 }
+ul {
+
+list-style-type: none;
+background-color: black;
+margin: 0;
+padding: 0;
+overflow: hidden;
+position: -webkit-sticky; /* Safari sticky code*/
+position: sticky;
+top: 0;
+display: flex;
+justify-content: center;
+
+	
+
+	}
+
+
+
+li {
+
+
+border-right: 1px solid white ;
+	}
+
+li a {
+
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 6px 16px;
+  text-decoration: none;
+	 
+	 }
+
+
+li a:hover:not(.active) {
+  background-color: rgb(6, 16, 156);
+			
+
+			}
+
+.active{
+
+	background-color: blue;
+	border-left: 1px solid white;
+}
+
+section article h2{
+
+	color: white;
+}
+section article p, section article li, section aside, {
+	text-align: left;
+}
+
+header{
+	display: flex;
+}
+header h1{
+	width: calc(100% - 400px);
+}
+
+section{
+	display: flex;
+}
+section article, section aside{
+	padding: 0 10px;
+}
+section aside{
+	flex-grow: 0;
+	flex-shrink: 0;
+	flex-basis: 200px;
+}
+
+.columns{
+
+	width: 450;
+	height: 450;
+	color: white;
+	text-align: center;
+}
+section.imagesbox figure{
+	margin: 0;
+}
+
+section.imagesbox img{
+	width: 100%;
+}
+section.imagesbox article{
+	background-color: rgb(10, 10, 10); /*black*/
+	border: 1px solid white;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+	color: white;
+}
+
+
+
+
+footer blockquote {
+
+	color: aliceblue;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+
+}
+
+@media screen and (min-width: 600px) {
+	header{
+		display: flex;
+	}
+	header h1{
+		width: calc(100% - 400px);
+	}
+
+}  /*end of 600px*/
+
+@media screen and (min-width: 600px) {
+	header{
+		display: flex;
+	}
+	header h1{
+		width: calc(100% - 400px);
+	}
+	section{
+		display: flex;
+		
+	}
+}  /*end of 600px*/
+
+@media screen and (min-width: 600px) {
+	header{
+		display: flex;
+	}
+	header h1{
+		width: calc(100% - 400px);
+	}
+	section{
+		display: flex;
+		
+	}
+	section aside{
+		flex-grow: 0;
+		flex-shrink: 0;
+		flex-basis: 200px;
+		border-left: 1px solid black;
+	}
+}  /*end of 600px*/
